@@ -1,4 +1,4 @@
-package com.example.application;
+package com.ltsoftwaresupport.todo;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
@@ -14,10 +14,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @Theme(value = "todo")
-public class Application implements AppShellConfigurator {
+public class TodoApplication implements AppShellConfigurator {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(TodoApplication.class, args);
     }
 
 }
